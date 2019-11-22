@@ -1,0 +1,381 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/sgowda/.nvm/versions/node/v4.3.2/bin/node',
+1 verbose cli   '/Users/sgowda/.nvm/versions/node/v4.3.2/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@3.5.3
+3 info using node@v4.3.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData express
+20 silly mapToRegistry name express
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://artifactory.corp.coupons.com/artifactory/api/npm/npm-n2rebuild-release
+23 silly mapToRegistry uri https://artifactory.corp.coupons.com/artifactory/api/npm/npm-n2rebuild-release/express
+24 silly fetchNamedPackageData hbs
+25 silly mapToRegistry name hbs
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://artifactory.corp.coupons.com/artifactory/api/npm/npm-n2rebuild-release
+28 silly mapToRegistry uri https://artifactory.corp.coupons.com/artifactory/api/npm/npm-n2rebuild-release/hbs
+29 verbose request uri https://artifactory.corp.coupons.com/artifactory/api/npm/npm-n2rebuild-release/hbs
+30 verbose request no auth needed
+31 info attempt registry request try #1 at 2:20:44 PM
+32 verbose request id e22a9d0566df574b
+33 http request GET https://artifactory.corp.coupons.com/artifactory/api/npm/npm-n2rebuild-release/hbs
+34 verbose request uri https://artifactory.corp.coupons.com/artifactory/api/npm/npm-n2rebuild-release/express
+35 verbose request no auth needed
+36 info attempt registry request try #1 at 2:20:44 PM
+37 verbose etag 829466b5646d2e65a481065e9331230e2f9a0318
+38 http request GET https://artifactory.corp.coupons.com/artifactory/api/npm/npm-n2rebuild-release/express
+39 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND artifactory.corp.coupons.com artifactory.corp.coupons.com:443
+40 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND artifactory.corp.coupons.com artifactory.corp.coupons.com:443
+41 info attempt registry request try #2 at 2:20:54 PM
+42 http request GET https://artifactory.corp.coupons.com/artifactory/api/npm/npm-n2rebuild-release/hbs
+43 info attempt registry request try #2 at 2:20:54 PM
+44 verbose etag 829466b5646d2e65a481065e9331230e2f9a0318
+45 http request GET https://artifactory.corp.coupons.com/artifactory/api/npm/npm-n2rebuild-release/express
+46 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND artifactory.corp.coupons.com artifactory.corp.coupons.com:443
+47 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND artifactory.corp.coupons.com artifactory.corp.coupons.com:443
+48 info attempt registry request try #3 at 2:21:54 PM
+49 http request GET https://artifactory.corp.coupons.com/artifactory/api/npm/npm-n2rebuild-release/hbs
+50 info attempt registry request try #3 at 2:21:54 PM
+51 verbose etag 829466b5646d2e65a481065e9331230e2f9a0318
+52 http request GET https://artifactory.corp.coupons.com/artifactory/api/npm/npm-n2rebuild-release/express
+53 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND artifactory.corp.coupons.com artifactory.corp.coupons.com:443
+53 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+53 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+53 silly fetchPackageMetaData  error for hbs@^4.0.1 { [Error: getaddrinfo ENOTFOUND artifactory.corp.coupons.com artifactory.corp.coupons.com:443]
+53 silly fetchPackageMetaData   code: 'ENOTFOUND',
+53 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+53 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+53 silly fetchPackageMetaData   hostname: 'artifactory.corp.coupons.com',
+53 silly fetchPackageMetaData   host: 'artifactory.corp.coupons.com',
+53 silly fetchPackageMetaData   port: 443 }
+54 silly get cb [ 304, undefined ]
+55 verbose etag https://artifactory.corp.coupons.com/artifactory/api/npm/npm-n2rebuild-release/express from cache
+56 verbose get saving express to /Users/sgowda/.npm/artifactory.corp.coupons.com/artifactory/api/npm/npm-n2rebuild-release/express/.cache.json
+57 silly resolveWithNewModule express@4.17.1 checking installable status
+58 silly cache add args [ 'express@^4.16.4', null ]
+59 verbose cache add spec express@^4.16.4
+60 silly cache add parsed spec Result {
+60 silly cache add   raw: 'express@^4.16.4',
+60 silly cache add   scope: null,
+60 silly cache add   name: 'express',
+60 silly cache add   rawSpec: '^4.16.4',
+60 silly cache add   spec: '>=4.16.4 <5.0.0',
+60 silly cache add   type: 'range' }
+61 silly addNamed express@>=4.16.4 <5.0.0
+62 verbose addNamed ">=4.16.4 <5.0.0" is a valid semver range for express
+63 silly addNameRange { name: 'express', range: '>=4.16.4 <5.0.0', hasData: false }
+64 silly mapToRegistry name express
+65 silly mapToRegistry using default registry
+66 silly mapToRegistry registry https://artifactory.corp.coupons.com/artifactory/api/npm/npm-n2rebuild-release
+67 silly mapToRegistry uri https://artifactory.corp.coupons.com/artifactory/api/npm/npm-n2rebuild-release/express
+68 verbose addNameRange registry:https://artifactory.corp.coupons.com/artifactory/api/npm/npm-n2rebuild-release/express not in flight; fetching
+69 verbose get https://artifactory.corp.coupons.com/artifactory/api/npm/npm-n2rebuild-release/express not expired, no request
+70 silly addNameRange number 2 { name: 'express', range: '>=4.16.4 <5.0.0', hasData: true }
+71 silly addNameRange versions [ 'express',
+71 silly addNameRange   [ '2.3.10',
+71 silly addNameRange     '2.3.11',
+71 silly addNameRange     '4.11.2',
+71 silly addNameRange     '4.11.1',
+71 silly addNameRange     '4.11.0',
+71 silly addNameRange     '4.1.1',
+71 silly addNameRange     '4.1.2',
+71 silly addNameRange     '2.3.12',
+71 silly addNameRange     '4.1.0',
+71 silly addNameRange     '3.3.2',
+71 silly addNameRange     '3.3.3',
+71 silly addNameRange     '3.3.4',
+71 silly addNameRange     '3.3.5',
+71 silly addNameRange     '3.3.0',
+71 silly addNameRange     '3.3.1',
+71 silly addNameRange     '3.16.4',
+71 silly addNameRange     '3.16.5',
+71 silly addNameRange     '3.16.2',
+71 silly addNameRange     '3.16.3',
+71 silly addNameRange     '3.4.5',
+71 silly addNameRange     '3.16.0',
+71 silly addNameRange     '3.4.6',
+71 silly addNameRange     '3.16.1',
+71 silly addNameRange     '3.16.10',
+71 silly addNameRange     '3.4.7',
+71 silly addNameRange     '3.4.8',
+71 silly addNameRange     '2.5.3',
+71 silly addNameRange     '2.5.4',
+71 silly addNameRange     '2.5.1',
+71 silly addNameRange     '2.5.2',
+71 silly addNameRange     '3.16.8',
+71 silly addNameRange     '2.5.0',
+71 silly addNameRange     '3.16.9',
+71 silly addNameRange     '3.16.6',
+71 silly addNameRange     '3.16.7',
+71 silly addNameRange     '2.0.0-rc2',
+71 silly addNameRange     '2.0.0-rc3',
+71 silly addNameRange     '4.12.2',
+71 silly addNameRange     '4.12.1',
+71 silly addNameRange     '4.12.0',
+71 silly addNameRange     '4.2.0',
+71 silly addNameRange     '3.4.1',
+71 silly addNameRange     '3.4.2',
+71 silly addNameRange     '3.4.3',
+71 silly addNameRange     '3.4.4',
+71 silly addNameRange     '3.4.0',
+71 silly addNameRange     '3.15.3',
+71 silly addNameRange     '3.15.1',
+71 silly addNameRange     '3.15.2',
+71 silly addNameRange     '3.15.0',
+71 silly addNameRange     '1.0.3',
+71 silly addNameRange     '1.0.4',
+71 silly addNameRange     '1.0.5',
+71 silly addNameRange     '1.0.6',
+71 silly addNameRange     '1.0.7',
+71 silly addNameRange     '1.0.8',
+71 silly addNameRange     '4.12.4',
+71 silly addNameRange     '4.12.3',
+71 silly addNameRange     '1.0.0',
+71 silly addNameRange     '1.0.1',
+71 silly addNameRange     '1.0.2',
+71 silly addNameRange     '3.0.0-alpha2',
+71 silly addNameRange     '3.0.0-alpha3',
+71 silly addNameRange     '3.0.0-alpha1',
+71 silly addNameRange     '3.0.0-alpha4',
+71 silly addNameRange     '3.0.0-alpha5',
+71 silly addNameRange     '4.3.0',
+71 silly addNameRange     '1.0.0-beta',
+71 silly addNameRange     '4.3.1',
+71 silly addNameRange     '4.3.2',
+71 silly addNameRange     '3.5.0',
+71 silly addNameRange     '3.5.1',
+71 silly addNameRange     '3.5.2',
+71 silly addNameRange     '3.5.3',
+71 silly addNameRange     '3.18.2',
+71 silly addNameRange     '3.18.3',
+71 silly addNameRange     '3.18.0',
+71 silly addNameRange     '0.14.1',
+71 silly addNameRange     '3.18.1',
+71 silly addNameRange     '0.14.0',
+71 silly addNameRange     '3.10.4',
+71 silly addNameRange     '3.10.5',
+71 silly addNameRange     '3.18.6',
+71 silly addNameRange     '3.18.4',
+71 silly addNameRange     '3.18.5',
+71 silly addNameRange     '4.4.4',
+71 silly addNameRange     '4.4.5',
+71 silly addNameRange     '3.21.2',
+71 silly addNameRange     '4.17.1',
+71 silly addNameRange     '4.17.0',
+71 silly addNameRange     '3.21.0',
+71 silly addNameRange     '3.21.1',
+71 silly addNameRange     '4.10.0',
+71 silly addNameRange     '4.10.4',
+71 silly addNameRange     '4.10.3',
+71 silly addNameRange     '4.10.2',
+71 silly addNameRange     '4.10.1',
+71 silly addNameRange     '2.0.0-rc',
+71 silly addNameRange     '4.0.0-rc1',
+71 silly addNameRange     '4.0.0-rc3',
+71 silly addNameRange     '4.4.2',
+71 silly addNameRange     '4.0.0-rc2',
+71 silly addNameRange     '4.4.3',
+71 silly addNameRange     '4.4.0',
+71 silly addNameRange     '4.0.0-rc4',
+71 silly addNameRange     '4.4.1',
+71 silly addNameRange     '3.6.0',
+71 silly addNameRange     '2.0.0',
+71 silly addNameRange     '3.17.3',
+71 silly addNameRange     '3.17.4',
+71 silly addNameRange     '5.0.0-alpha.1',
+71 silly addNameRange     '3.17.1',
+71 silly addNameRange     '5.0.0-alpha.2',
+71 silly addNameRange     '3.17.2',
+71 silly addNameRange     '5.0.0-alpha.3',
+71 silly addNameRange     '3.17.0',
+71 silly addNameRange     '1.0.0-beta2',
+71 silly addNameRange     '3.17.7',
+71 silly addNameRange     '3.17.8',
+71 silly addNameRange     '3.17.5',
+71 silly addNameRange     '3.17.6',
+71 silly addNameRange     '1.0.0-rc4',
+71 silly addNameRange     '4.10.8',
+71 silly addNameRange     '3.20.3',
+71 silly addNameRange     '1.0.0-rc3',
+71 silly addNameRange     '4.10.7',
+71 silly addNameRange     '1.0.0-rc2',
+71 silly addNameRange     '4.10.6',
+71 silly addNameRange     '3.20.1',
+71 silly addNameRange     '4.10.5',
+71 silly addNameRange     '3.20.2',
+71 silly addNameRange     '5.0.0-alpha.4',
+71 silly addNameRange     '3.20.0',
+71 silly addNameRange     '5.0.0-alpha.5',
+71 silly addNameRange     '5.0.0-alpha.6',
+71 silly addNameRange     '5.0.0-alpha.7',
+71 silly addNameRange     '4.5.1',
+71 silly addNameRange     '4.5.0',
+71 silly addNameRange     '3.7.0',
+71 silly addNameRange     '3.11.0',
+71 silly addNameRange     '2.1.0',
+71 silly addNameRange     '3.8.1',
+71 silly addNameRange     '3.0.0-beta6',
+71 silly addNameRange     '3.0.0-beta7',
+71 silly addNameRange     '2.1.1',
+71 silly addNameRange     '3.0.0-beta4',
+71 silly addNameRange     '4.15.3',
+71 silly addNameRange     '4.15.2',
+71 silly addNameRange     '3.0.0-beta2',
+71 silly addNameRange     '4.15.1',
+71 silly addNameRange     '3.0.0-beta3',
+71 silly addNameRange     '4.15.0',
+71 silly addNameRange     '3.0.0-beta1',
+71 silly addNameRange     '4.15.5',
+71 silly addNameRange     '4.15.4',
+71 silly addNameRange     '2.5.11',
+71 silly addNameRange     '2.5.10',
+71 silly addNameRange     '4.6.0',
+71 silly addNameRange     '4.6.1',
+71 silly addNameRange     '3.0.0',
+71 silly addNameRange     '2.3.9',
+71 silly addNameRange     '2.3.7',
+71 silly addNameRange     '2.3.8',
+71 silly addNameRange     '3.0.5',
+71 silly addNameRange     '3.10.2',
+71 silly addNameRange     '3.0.6',
+71 silly addNameRange     '3.10.3',
+71 silly addNameRange     '2.0.0-beta2',
+71 silly addNameRange     '3.10.0',
+71 silly addNameRange     '3.8.0',
+71 silly addNameRange     '3.10.1',
+71 silly addNameRange     '3.0.1',
+71 silly addNameRange     '3.0.2',
+71 silly addNameRange     '2.0.0-beta3',
+71 silly addNameRange     '3.0.3',
+71 silly addNameRange     '3.0.4',
+71 silly addNameRange     '3.19.1',
+71 silly addNameRange     '3.19.2',
+71 silly addNameRange     '3.19.0',
+71 silly addNameRange     '3.9.0',
+71 silly addNameRange     '2.2.2',
+71 silly addNameRange     '2.2.0',
+71 silly addNameRange     '2.2.1',
+71 silly addNameRange     '3.0.0-rc3',
+71 silly addNameRange     '4.7.3',
+71 silly addNameRange     '3.0.0-rc4',
+71 silly addNameRange     '4.7.4',
+71 silly addNameRange     '3.0.0-rc5',
+71 silly addNameRange     '4.7.1',
+71 silly addNameRange     '4.7.2',
+71 silly addNameRange     '3.0.0-rc1',
+71 silly addNameRange     '3.0.0-rc2',
+71 silly addNameRange     '4.16.2',
+71 silly addNameRange     '4.16.1',
+71 silly addNameRange     '4.16.0',
+71 silly addNameRange     '4.16.4',
+71 silly addNameRange     '4.16.3',
+71 silly addNameRange     '4.13.1',
+71 silly addNameRange     '4.13.0',
+71 silly addNameRange     '4.7.0',
+71 silly addNameRange     '2.4.6',
+71 silly addNameRange     '2.4.7',
+71 silly addNameRange     '3.13.0',
+71 silly addNameRange     '3.1.0',
+71 silly addNameRange     '3.1.1',
+71 silly addNameRange     '3.1.2',
+71 silly addNameRange     '3.14.0',
+71 silly addNameRange     '2.3.5',
+71 silly addNameRange     '2.3.6',
+71 silly addNameRange     '2.3.3',
+71 silly addNameRange     '2.3.4',
+71 silly addNameRange     '2.3.1',
+71 silly addNameRange     '2.3.2',
+71 silly addNameRange     '2.3.0',
+71 silly addNameRange     '4.8.2',
+71 silly addNameRange     '4.8.3',
+71 silly addNameRange     '4.8.0',
+71 silly addNameRange     '4.8.1',
+71 silly addNameRange     '4.8.6',
+71 silly addNameRange     '4.8.7',
+71 silly addNameRange     '1.0.0-rc',
+71 silly addNameRange     '4.8.4',
+71 silly addNameRange     '4.8.5',
+71 silly addNameRange     '4.13.4',
+71 silly addNameRange     '4.8.8',
+71 silly addNameRange     '4.13.3',
+71 silly addNameRange     '4.13.2',
+71 silly addNameRange     '4.14.0',
+71 silly addNameRange     '4.0.0',
+71 silly addNameRange     '2.5.9',
+71 silly addNameRange     '2.5.7',
+71 silly addNameRange     '2.5.8',
+71 silly addNameRange     '2.5.5',
+71 silly addNameRange     '2.5.6',
+71 silly addNameRange     '3.2.3',
+71 silly addNameRange     '3.12.0',
+71 silly addNameRange     '3.2.4',
+71 silly addNameRange     '3.12.1',
+71 silly addNameRange     '3.2.5',
+71 silly addNameRange     '3.2.6',
+71 silly addNameRange     '3.2.0',
+71 silly addNameRange     '3.2.1',
+71 silly addNameRange     '3.2.2',
+71 silly addNameRange     '3.3.6',
+71 silly addNameRange     '3.3.7',
+71 silly addNameRange     '3.3.8',
+71 silly addNameRange     '2.4.4',
+71 silly addNameRange     '2.4.5',
+71 silly addNameRange     '2.4.2',
+71 silly addNameRange     '2.4.3',
+71 silly addNameRange     '2.4.0',
+71 silly addNameRange     '2.0.0-beta',
+71 silly addNameRange     '2.4.1',
+71 silly addNameRange     '4.9.1',
+71 silly addNameRange     '4.9.2',
+71 silly addNameRange     '4.9.0',
+71 silly addNameRange     '4.9.5',
+71 silly addNameRange     '4.9.6',
+71 silly addNameRange     '4.9.3',
+71 silly addNameRange     '4.9.4',
+71 silly addNameRange     '4.9.7',
+71 silly addNameRange     '4.9.8',
+71 silly addNameRange     '4.14.1' ] ]
+72 silly addNamed express@4.17.1
+73 verbose addNamed "4.17.1" is a plain semver version for express
+74 silly cache afterAdd express@4.17.1
+75 verbose afterAdd /Users/sgowda/.npm/express/4.17.1/package/package.json not in flight; writing
+76 verbose afterAdd /Users/sgowda/.npm/express/4.17.1/package/package.json written
+77 silly rollbackFailedOptional Starting
+78 silly rollbackFailedOptional Finishing
+79 silly runTopLevelLifecycles Starting
+80 silly runTopLevelLifecycles Finishing
+81 silly install printInstalled
+82 verbose stack Error: getaddrinfo ENOTFOUND artifactory.corp.coupons.com artifactory.corp.coupons.com:443
+82 verbose stack     at errnoException (dns.js:26:10)
+82 verbose stack     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+83 verbose cwd /Users/sgowda/Documents/n3-07-11-styles-2/web-server
+84 error Darwin 18.7.0
+85 error argv "/Users/sgowda/.nvm/versions/node/v4.3.2/bin/node" "/Users/sgowda/.nvm/versions/node/v4.3.2/bin/npm" "install"
+86 error node v4.3.2
+87 error npm  v3.5.3
+88 error code ENOTFOUND
+89 error errno ENOTFOUND
+90 error syscall getaddrinfo
+91 error network getaddrinfo ENOTFOUND artifactory.corp.coupons.com artifactory.corp.coupons.com:443
+92 error network This is most likely not a problem with npm itself
+92 error network and is related to network connectivity.
+92 error network In most cases you are behind a proxy or have bad network settings.
+92 error network
+92 error network If you are behind a proxy, please make sure that the
+92 error network 'proxy' config is set properly.  See: 'npm help config'
+93 verbose exit [ 1, true ]
